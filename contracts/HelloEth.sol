@@ -9,7 +9,7 @@ contract HelloEth {
   }
 
   //adds to balance
-  function deposit(uint _value) returns (uint _newBalance) {
+  function deposit(uint _value) returns (uint) {
     balance += _value;
     return balance;
   }
